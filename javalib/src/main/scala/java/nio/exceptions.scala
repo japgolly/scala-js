@@ -1,0 +1,13 @@
+package java.nio
+
+@SerialVersionUID(-5484897634319144535L)
+class BufferOverflowException extends RuntimeException
+
+@SerialVersionUID(-1713313658691622206L)
+class BufferUnderflowException extends RuntimeException
+
+@SerialVersionUID(1698329710438510774L)
+class InvalidMarkException extends IllegalStateException
+
+@SerialVersionUID(-1210063976496234090L)
+class ReadOnlyBufferException extends UnsupportedOperationException
